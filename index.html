@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://openweathermap.org/api/one-call-api" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Weather Dashboard</title>
 </head>
+
+
 <body>
-    
+
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="flex">
+        
+        <!--Search Start-->
+        <div class="leftSide">
+
+            <div id="search">
+                <p>Search for a city:</p>
+                <textarea class="button" id="searchField" name="searchbar" id="sb1" cols="30" rows="10"></textarea>
+                <div class="button" id="sourceButton">Search</div>
+            </div>
+
+            <div id="results"></div>
+
+        </div>
+        <!--Search End-->
+
+
+        <!--Forecast Start-->
+        <div class="rightSide">
+            <div id="localForecast"></div>
+            <div>
+                <div id="fiveDaybanner">5-Day Forecast:</div>
+                <div id="fiveDay">
+                    <div class="days" id="dayOne"></div>
+                    <div class="days" id="dayTwo"> </div>
+                    <div class="days" id="dayThree"></div>
+                    <div class="days" id="dayFour"></div>
+                    <div class="days" id="dayFive"> </div>
+                </div>
+            </div>
+        </div>
+        <!--Forecast End-->
+
+    </div>
+
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <script src="./assets/script.js"></script>
+
 </body>
+
+
 </html>
