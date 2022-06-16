@@ -9,6 +9,6 @@
     searched city will pop up in the left column. This
     application is very simple and intuitive to use.
 
-    [Website](https://ianbridges.github.io/Module-6-Challenge/)
+[Website](https://ianbridges.github.io/Module-6-Challenge/)
 
-    ![Image](./assets/Screenshot.jpg)
+![Image](./assets/Screenshot.jpg)
